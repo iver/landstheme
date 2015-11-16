@@ -1,0 +1,12 @@
+name = "landstheme"
+license = "GNU GENERAL PUBLIC LICENSE"
+licenselink = "//github.com/ivan-iver/landstheme/blob/master/LICENSE"
+description = "My weblog theme (http://iver.mx)"
+homepage = "//github.com/ivan-iver/landstheme/"
+tags = ["iver", "paralax", "blog"]
+min_version = 0.15
+
+[author]
+  name = "iver"
+  homepage = "//github.com/ivan-iver/"
+
