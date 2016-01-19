@@ -1,0 +1,38 @@
+baseurl = ""
+languageCode = ""
+title = ""
+theme = "landstheme"
+
+[params]
+
+  name = ""
+  description = ""
+  author = ""
+  author_site = ""
+  image = ""
+  description_og = ""
+  analytics = ""
+  twitter = ""
+  facebook = ""
+  web = ""
+
+  [[params.slider]]
+
+      [[params.slider.pic]]
+        img = "/img/iceberg-1280x800.jpg"
+        title = "Iceberg"
+        slogan = "Slogan 1"
+        align = "left"
+
+      [[params.slider.pic]]
+        img = "/img/mcway-falls-1280x800.jpg"
+        title = "Titulo 2"
+        slogan = "Slogan 2"
+        align = "center"
+
+      [[params.slider.pic]]
+        img = "/img/sunrise-1280x800.jpg"
+        title = "Titulo 3"
+        slogan = "Slogan 3"
+        align = "right"
+

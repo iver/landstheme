@@ -8,5 +8,6 @@ min_version = 0.15
 
 [author]
   name = "iver"
-  homepage = "//github.com/ivan-iver/"
+  github = "//github.com/ivan-iver/"
+  web = "//iver.mx"
 

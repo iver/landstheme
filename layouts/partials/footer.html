@@ -1,0 +1,30 @@
+
+   {{ "<!-- ========== Footer ==========  -->" | safeHTML }}
+    <footer>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="col-sm-4 col-md-4">
+            <div class="contact"><p><a href="/acerca-de/">Acerca de Nosotros</a></p>
+              <p>
+              <a href="/terminos">Términos y Condiciones</a></p>
+              <p>
+              Políticas de Privacidad</p>
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-4">
+            <div class="contact">
+              <a class="icon" href="http://www.twitter.com/{{ $.Site.Params.twitter }}" target="_blank"><i class="fa fa-twitter"></i></a>
+              <a class="icon" href="http://www.facebook.com/{{ $.Site.Params.facebook }}" target="_blank"><i class="fa fa-facebook"></i></a>
+              <a class="icon" href="{{ $.Site.Params.web }}" target="_blank"><i class="fa fa-globe"></i></a>
+            </div>
+            <div class="copy">
+              <p class="muted">© Iver 2015.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </footer>
