@@ -1,0 +1,15 @@
+.slider .slides {
+  background-color: rgba(0, 0, 0, 0.85) !important;
+}
+
+.slider .slides li img {
+  opacity: 0.40;
+}
+
+.opaque h5 {
+    background: rgba(25, 25, 25, .5);
+}
+
+footer {
+  display: none;
+}

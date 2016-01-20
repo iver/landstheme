@@ -10,7 +10,7 @@
             <img src="{{ .img }}"> <!-- random image -->
             <div class="caption {{ with .align }}{{ . }}{{ else }}center{{ end }}-align">
               <h3>{{ .title }}</h3>
-              <h5 class="light grey-text text-lighten-3">{{ .slogan }}</h5>
+              <h5 class="light grey-text text-lighten-3">{{ .slogan | markdownify }}</h5>
             </div>
             </li>
           {{ end}}
