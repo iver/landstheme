@@ -1,0 +1,11 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+::selection {
+  background: #000000;
+  color: #ffffff;
+}
