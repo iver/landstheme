@@ -7,6 +7,16 @@ body {
   padding: 0;
   line-height: 1.6em; }
 
+body {
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-weight: normal;
+  font-size: 18px; }
+
+::selection {
+  background: #000000;
+  color: #ffffff; }
+
 .icon-bar {
   display: block;
   width: 21px;
@@ -69,15 +79,5 @@ body {
 :focus, :active {
   outline-color: transparent;
   outline-style: none; }
-
-body {
-  font-family: 'Roboto', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  font-weight: normal;
-  font-size: 18px; }
-
-::selection {
-  background: #000000;
-  color: #ffffff; }
 
 /*# sourceMappingURL=style.css.map */
